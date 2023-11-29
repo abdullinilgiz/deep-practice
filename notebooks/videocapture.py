@@ -25,12 +25,12 @@ current_frame = 0
 while True:
     # Перемещаемся к следующему кадру
     cap.set(cv2.CAP_PROP_POS_FRAMES, current_frame)
-    
+
     # Считываем кадр из видеопотока
     ret, frame = cap.read()
     print(ret)
     print(frame)
-    
+
     # Проверяем, успешно ли считан кадр
     if not ret:
         print("Не удалось прочитать кадр.")
