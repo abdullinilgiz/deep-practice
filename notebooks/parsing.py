@@ -13,11 +13,8 @@ def convert_to_yolo(x1, y1, x2, y2, image_width=1280, image_height=960):
 
 
 def extract_name_and_coords(sign):
-    print('*', sign, '*')
     coords = list(map(float, re.findall(r'\d*\.\d+|\d+', sign)))
-    print(coords)
     sign_name = sign.split(', ')[-1]
-    print(sign_name)
     return sign_name, coords
 
 

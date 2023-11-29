@@ -1,0 +1,25 @@
+path: ../data  
+train: images/train
+val: images/val
+
+names:
+  0: 100_SIGN
+  1: 110_SIGN
+  2: 120_SIGN
+  3: 30_SIGN
+  4: 50_SIGN
+  5: 60_SIGN
+  6: 70_SIGN
+  7: 80_SIGN
+  8: 90_SIGN
+  9: GIVE_WAY
+  10: NO_PARKING
+  11: NO_STOPPING_NO_STANDING
+  12: OTHER
+  13: PASS_EITHER_SIDE
+  14: PASS_LEFT_SIDE
+  15: PASS_RIGHT_SIDE
+  16: PEDESTRIAN_CROSSING
+  17: PRIORITY_ROAD
+  18: STOP
+  19: URDBL
