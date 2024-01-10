@@ -164,3 +164,7 @@ notebooks/data/
 notebooks/data_old/
 notebooks/yolov5/
 *.mp4
+runs/
+data/images/
+data/labels/
+yolov5/
